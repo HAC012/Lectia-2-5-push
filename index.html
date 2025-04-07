@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head><!--este partea invizibila a paginii-->
 <body>
     <!-- ul -lista neordonata-->
@@ -11,7 +12,7 @@
          i - italic
          u - subliniat
          s - taiat -->
-    <h3>Unordered List Phones</h3>
+    <h3 id="uol1">Unordered List Phones
     <ul>
         <li>
             <p><b>HTC</b></p>
@@ -26,14 +27,17 @@
             <p><s>iPhone</s></p>
         </li>
     </ul>
+    </h3>
     <a href="#id1">
         <p>Contact</p>
     </a>
     <a href="services.html">
-        services</a>
-
+        services
+    </a>
+    <hr>
+    
     <!-- ol - lista ordonata-->
-     <h3>Ordered List Ex. 1</h3>
+     <h3 id="ol1">Ordered List Ex. 1</h3>
     <ol type="a">
         <li>
            <p>iPhone</p>
@@ -55,8 +59,10 @@
         </li>
         <li>Xiaomi
         </li>
+        
     </ol>
-    <h3>Ordered List Ex. 2</h3>
+    <hr>
+    <h3 id="ol2">Ordered List Ex. 2</h3>
     <ol type="1">
         <li>
             <a href="https://store.google.com/us/?hl=en-US&regionRedirect=true" target="_blank">
@@ -87,20 +93,21 @@
 
         <!--  <img> - exemplu de tag care nu isi reprezinta propriul continut
           adica nu are nevoie de elementul de inchidere -->
+          <hr>
        <h1>
         ADD IMAGE: Absolut Mode
     </h1>
           <img src="https://ucarecdn.com/63f1b02f-8526-4618-99a2-74e3be98aa15/" alt="Chec online server source" height="680">
         
         <h1>
-            ADD IMAGE: Relativ Mode
             <hr>
+            ADD IMAGE: Relativ Mode
+            <br>
         </h1>
           <img src="IT task.png" height="700" alt="Check Local Server">
-        <h1>
-            ADD IMAGE WITH LINK - From Online Server
-        </h1>
-        <h1>
+          <hr>
+      
+        <h1 id="iPhone_16_pro">
             <a href="https://www.apple.com/iphone-16-pro/" target="_blank">
             <p>iPhone 16 Pro</p>
             <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone16prohero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1725567335931" alt="Check online server source"></a>
@@ -109,11 +116,10 @@
             HTML - hypertext markyp lanuage
             a - anchor, tagul pentru a crea un link 
              href hypertext reference -->
-    <h1>
-        ADD IMAGE WITH LINK - From Local Server
-    </h1>
+             <hr>
+    
         
-        <h1>
+        <h1 id="pxl_9_pro">
             <a href="https://store.google.com/ro/product/pixel_9_pro?hl=ro" target="_blank">
             <p>
                 Google Pixel 9 Pro
@@ -122,14 +128,18 @@
                 <img src="Pixel Black.jpg" alt="Check Local Source" width="650">
             </p></a>
         </h1>
-        <h1 id="id1">060121212</h1>
+        <hr>
+        <h1 id="id1">067403043</h1>
+
         <a href="tel:+37367546007">067546007</a>
-        <br><br>
+        <br>
+        <hr>
         <!-- br - tag ce semnifica intrerupere rand 
             hr - creaza linie orizontala de marcare-->
         <a href="mailto">hadeicristian@gmail.com</a>
         <br>
-        <br>
+        
+        <hr>
         <!-- <video> - pt adaugare video
             atributul src - sursa principala de unde va fi luat videoul
             atributul controls - pentru a activa elementele video play pause etc
@@ -140,5 +150,14 @@
             acest video nu poate fi accesat
         </video>
 
+
+            <section>
+                <article>
+                    <div class="img_wrapper">
+                        <img src="Pixel Black.jpg" alt="">
+
+                    </div>
+                </article>
+            </section>
 </body>
 </html>

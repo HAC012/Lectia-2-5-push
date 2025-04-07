@@ -1,0 +1,55 @@
+#id1 {
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+    color: red;
+    background-color: black;
+    }
+    @media screen and (max-width: 600px)
+        { 
+        }
+    @media screen and (min-width: 601px;)
+     {}   
+    @media screen and {min-width: 601px;
+        
+    }
+
+#uol1
+    {
+    width: fit-content;
+    padding: 15px;
+    align-self: auto;
+    background-color: grey;
+    }
+
+#pxl_9_pro 
+        {
+        width: fit-content;
+        background-color: grey;
+        padding: 20px 40px 20px 40px; 
+        }
+#pxl_9_pro:hover
+         {
+            padding: 40px 60px 40px 60px;
+            background-color: green;
+         }
+#iPhone_16_pro
+        {
+        width: fit-content;
+        background-color: grey;
+        padding: 20px 40px 20px 40px; 
+        position: relative;
+        }
+
+    .img_wrapper 
+        {
+            width: 200px;
+            height: 300px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            overflow: hidden;
+
+        }
+    .img_wrapper img
