@@ -3,29 +3,35 @@
     padding: 10px 10px 10px 10px;
     color: red;
     background-color: black;
-    }
+}
     @media screen and (max-width: 600px)
-        { 
-        }
-    @media screen and (min-width: 601px;)
+        {}
+    @media screen and (min-width: 601px)
      {}   
-    @media screen and {min-width: 601px;
+    @media screen and (min-width: 601px)
+     {}
         
-    }
+
 
 #uol1
     {
-    width: fit-content;
+    align-items: center;
+    text-align: right;
+    
     padding: 15px;
     align-self: auto;
     background-color: grey;
     }
+    .uol1{::before{color: rgb(80, 15, 15);}}
 
 #pxl_9_pro 
         {
-        width: fit-content;
-        background-color: grey;
-        padding: 20px 40px 20px 40px; 
+            width: fit-content;
+            background-color: grey;
+            padding: 20px 40px 20px 40px; 
+
+            transition: all 0.5s;
+            cursor: pointer;
         }
 #pxl_9_pro:hover
          {
@@ -38,8 +44,15 @@
         background-color: grey;
         padding: 20px 40px 20px 40px; 
         position: relative;
-        }
 
+        transition: all 0.5s;
+        cursor: pointer;
+        }
+    #iPhone_16_pro:hover
+         {
+            padding: 40px 60px 40px 60px;
+            background-color: green;
+         }
     .img_wrapper 
         {
             width: 200px;
@@ -52,4 +65,15 @@
             overflow: hidden;
 
         }
+        #searchbar:focus 
+        {
+            font-weight: bold;
+            background-color: blue;
+        }
+        #searchbar::placeholder {color: blue;}
+
+        .login:valid{background-color: rgb(240, 236, 232);}
+        .login:invalid{background-color: red;}
+        
+        
     .img_wrapper img
