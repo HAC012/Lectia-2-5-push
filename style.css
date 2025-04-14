@@ -72,6 +72,7 @@ body{
         }
         
         .card_produs {
+            font-ty: ;
             background-color: #e0e0e0;
             width: 250px;
             height: 400px;
@@ -79,6 +80,11 @@ body{
             padding: 16px;
             position: relative;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card_produs :hover{ font-weight: ;
+            hov
+        
         }
         
         .img_div {
@@ -114,6 +120,7 @@ body{
         }
 
         .bounce{
+           
             animation-name:produs_special;
             animation-duration: 1s;
             animation-iteration-count: infinite;
@@ -149,8 +156,7 @@ body{
 
             @keyframes miscare {
                 0% {transform: translate(0)}
-                50%{transform: translate(0)}
-        
+                50%{transform: translate(0)}    
 
 
             }
